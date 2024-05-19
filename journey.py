@@ -1,6 +1,6 @@
 import openai
 
-openai.api_key = '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'
+openai.api_key = 'Your key'
 def get_img(prompt):
     try:
         response = openai.Image.create(
