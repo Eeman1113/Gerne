@@ -2,7 +2,7 @@ import app_st as st
 import openai
 
 # Set up OpenAI API key
-openai.api_key = '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'
+openai.api_key = 'Your Key'
 
 # Define chat function
 def chat(inp, message_history, role="user"):
